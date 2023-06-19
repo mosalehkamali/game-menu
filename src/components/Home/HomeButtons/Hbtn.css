@@ -1,0 +1,17 @@
+.Hbtn button {
+    background-color: rgba(252, 252, 252, 0.24);
+    width: 20rem;
+    height: 3.5rem;
+    border: 2px #fff ;
+    border-style: outset;
+}
+
+.PageLink {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 32px;
+    font-family: myFirstFont;
+}
