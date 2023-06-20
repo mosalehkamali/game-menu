@@ -2,10 +2,14 @@ import React from 'react'
 import "./Home.css";
 import Hbtn from './HomeButtons/Hbtn';
 
+
+
+
 const Home = () => {
+
+
   return (
     <div className='home'>
-
       <h1 className='main-title'>Black Hill</h1>
       <div className="main-list">
       <Hbtn InnerBtn="Start" path ="/Store"></Hbtn>

@@ -1,12 +1,15 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  user-select: none;
 }
+
 @font-face {
-    font-family: 'myFirstFont';
-    src: url('/public/font/AmateurCamcorder-XYRd.ttf') format('truetype');
-  }
+  font-family: 'myFirstFont';
+  src: url('/public/font/AmateurCamcorder-XYRd.ttf') format('truetype');
+}
+
 @font-face {
-    font-family: 'LogoFont';
-    src: url('/public/font/AquireBold-8Ma60.otf') format('truetype');
-  }
+  font-family: 'LogoFont';
+  src: url('/public/font/AquireBold-8Ma60.otf') format('truetype');
+}
