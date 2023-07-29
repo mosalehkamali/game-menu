@@ -15,8 +15,7 @@ function App() {
   }
 
   return (
-    <div onLoad={run()} className="App">
-    
+    <div onLoad={()=>run()} className="App">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />

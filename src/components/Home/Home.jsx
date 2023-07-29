@@ -13,7 +13,7 @@ const Home = () => {
       <h1 className='main-title'>Black Hill</h1>
       <div className="main-list">
       <Hbtn InnerBtn="Start" path ="/Store"></Hbtn>
-      <Hbtn InnerBtn="NavBar" path ="/NavBar"></Hbtn>
+      <Hbtn InnerBtn="Login" path ="/NavBar"></Hbtn>
       <Hbtn InnerBtn="Store" path ="/Store"></Hbtn>
       <Hbtn InnerBtn="About" path ="/NavBar"></Hbtn>
       </div>

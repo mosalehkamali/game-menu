@@ -1,0 +1,41 @@
+/* styles.css */
+.slider-container {
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .star-box{
+    display: flex;
+    margin: 10px;
+    margin-bottom: 0px;
+    font-family: myFirstFont;
+    font-size: 25px
+  }
+  
+  .star-box p{
+    border: 2px #9032AD solid;
+    border-radius:5px;
+    padding: 2px;
+    background-color:#BD89CF;
+    cursor: pointer
+  }
+
+  @keyframes slideAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

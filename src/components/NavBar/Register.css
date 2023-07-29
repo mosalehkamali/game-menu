@@ -1,0 +1,33 @@
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: LogoFont;
+    background-image: url("https://blackhill360.ir/images/Firefly_Stars_are_born_within_the_clouds_of_dust_and_scattered_throughout_most_ga_YUqJhtE.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login {
+    display: flex;
+    position: static;
+    flex-direction: column;
+    height: 200px;
+    padding: 3vh;
+    column-gap: 10vh;
+    margin-top: 30vh;
+    height: 25vh;
+    background-color: rgb(37, 175, 243, 0.5);
+    border: 1px rgba(201, 205, 207, 0.384) solid;
+}
+
+#username,
+#password {
+    outline: none;
+    background-color: rgb(55, 199, 168, 0.5);
+}
+
+.loginbtn {
+    background-color: rgb(55, 199, 168, 0.5);
+    padding: 5px;
+}
