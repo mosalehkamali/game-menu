@@ -6,16 +6,12 @@ import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Store from "./components/Store/Store";
 import Home from './components/Home/Home';
-import sound from './assets/Glory.mp3';
 
 function App() {
 
-  function run(){
-    new Audio(sound).play()
-  }
-
+ 
   return (
-    <div onLoad={()=>run()} className="App">
+    <div className="App">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
